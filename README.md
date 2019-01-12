@@ -1,6 +1,7 @@
 # tcmb-doviz-kuru #
 # Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru
-
+<b>Created on: 12.01.2019</b>
+<b>Version : v1.0</b>
 - Güncel Döviz Kuru verilerini internette bulmamız çok basittir. Peki bu bilgileri doğru ve etkili olarak nasıl kullanabiliriz sorusunu sizlere açıklamak ve uygulamalı olarak göstermek adına oluşturduğum <b>Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru</b> scriptini dilediğiniz gibi kullanabilirsiniz. 
 - Kolay ve anlaşılır olabilmesi adına kod (php) içeriğini olabildiği kadar minimize etmeye çalıştım.Umarım işinize yarar.
 - Scriptin satışını yapmadığınız ve ticari kullanmadığınız sürece sorun olmayacaktır.
