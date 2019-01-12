@@ -122,7 +122,6 @@ $pound_satis = $doviz->Currency[4]->BanknoteSelling;
 <div class="footer">
  <p><a href="http://asilkarbeyaz.com" target="_blank" class="logo"><img src="http://asilkarbeyaz.com/doviz/logo.png"></a><a class="linkedin" href="https://www.linkedin.com/in/asilkarbeyaz/" target="_blank"><img src="http://asilkarbeyaz.com/doviz/linkedin.svg"  style="width:20px;height:20px;"></a>  <a class="instagram" href="https://instagram.com/asilkarbeyaz" target="_blank"><img src="http://asilkarbeyaz.com/doviz/instagram.svg" style="width:20px;height:20px;"></a></p>
 </div>
-    <script  src="js/index.js"></script>
 
 
 
