@@ -72,27 +72,27 @@ $dolar_alis = $doviz->Currency[0]->BanknoteBuying;
 
 # echo Komutu Kullanarak veri çağırma işlemi:
 Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>echo</b> komutu ile çağırmamız gerekmektedir.Bu yöntem sayesinde istediğimiz datayı websitemizde dilediğimiz yere ekleyebiliriz.
-- Dolar Alış Fiyatı: <b>$dolar_alis</b> değikeni için <b>echo</b> kullanımı:
+- Dolar Alış Fiyatı: <b>$dolar_alis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$dolar_alis"; ?>
 ```
-- Dolar Satış Fiyatı: <b>$dolar_satis</b> değikeni için <b>echo</b> kullanımı:
+- Dolar Satış Fiyatı: <b>$dolar_satis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$dolar_satis"; ?>
 ```
-- Euro Alış Fiyatı: <b>$euro_alis</b> değikeni için <b>echo</b> kullanımı:
+- Euro Alış Fiyatı: <b>$euro_alis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$euro_alis"; ?>
 ```
-- Euro Satış Fiyatı: <b>$euro_satis</b> değikeni için <b>echo</b> kullanımı:
+- Euro Satış Fiyatı: <b>$euro_satis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$euro_satis"; ?>
 ```
-- Sterlin Alış Fiyatı: <b>$pound_alis</b> değikeni için <b>echo</b> kullanımı:
+- Sterlin Alış Fiyatı: <b>$pound_alis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$pound_alis"; ?>
 ```
--Sterlin Satış Fiyatı: <b>$pound_satis</b> değikeni için <b>echo</b> kullanımı:
+-Sterlin Satış Fiyatı: <b>$pound_satis</b> değişkeni için <b>echo</b> kullanımı:
 ```php
 <?php echo "$pound_satis"; ?>
 ```
