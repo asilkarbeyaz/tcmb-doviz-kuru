@@ -121,11 +121,11 @@ Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>ech
 <b>[DEMO için Tıklayınız](http://asilkarbeyaz.com/doviz)</b>
 
 ## Bir Sonraki Güncelleme (Versiyon: `v2.0`) :
-sizden gelecek olan taleplere göre `v2.0` için yapmayı düşündüğüm güncellemeler aşağıdaki gibi olacaktır. 
+Sizden gelecek olan taleplere göre `v2.0` için yapmayı düşündüğüm güncellemeler aşağıdaki gibi olacaktır. 
 - `+ Forex Kur Değerleri (Alış ve Satış)` ,
 - `+ Birim Değeri (Unit)` ,
-- `+ Para Kodu (CurrencyCode)`
-- `+ Kur Tarihi (Tarih_Date-Tarih)`
-- `+ Bülten No (Tarih_Date-Bulten_No)`
+- `+ Para Kodu (CurrencyCode)` ,
+- `+ Kur Tarihi (Tarih_Date-Tarih)` ,
+- `+ Bülten No (Tarih_Date-Bulten_No)`.
 
 Teşekkürler...
