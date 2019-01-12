@@ -1,7 +1,7 @@
 # tcmb-doviz-kuru #
 # Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru
 
-- Güncel Döviz Kuru verilerini internette bulmamız çok basittir. Peki bu bilgileri doğru ve etkili olarak nasıl kullanabiliriz sorusunu sizlere açıklamak ve uygulamalı olarak göstermek adına oluşturduğum <b>Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru</b> scripti dilediğiniz gibi kullanabilirsiniz. 
+- Güncel Döviz Kuru verilerini internette bulmamız çok basittir. Peki bu bilgileri doğru ve etkili olarak nasıl kullanabiliriz sorusunu sizlere açıklamak ve uygulamalı olarak göstermek adına oluşturduğum <b>Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru</b> scriptini dilediğiniz gibi kullanabilirsiniz. 
 - Kolay ve anlaşılır olabilmesi adına kod (php) içeriğini olabildiği kadar minimize etmeye çalıştım.Umarım işinize yarar.
 - Scriptin satışını yapmadığınız ve ticari kullanmadığınız sürece sorun olmayacaktır.
 - Soru ve önerileriniz için lütfen iletişime geçiniz ve sosyal medya hesaplarımdan beni takip etmeyi unutmayınız.
@@ -60,7 +60,44 @@ $pound_satis = $doviz->Currency[4]->BanknoteSelling;
 
 ?> 
 ``` 
--Yukarıda görüldüğü gibi sadece DOLAR,EURO ve INGILIZ STERLINI için verileri okuyoruz.
+-Yukarıda görüldüğü gibi sadece DOLAR,EURO ve INGILIZ STERLINI için verileri okuyoruz. Diğer para birimleri için XML kaynağını takip edebilirsiniz. 
+```php
+$dolar_alis = $doviz->Currency[0]->BanknoteBuying;
+```
+<b>Tablo Sırası</b> değerine göre veri okuma işlemini uyguluyoruz. Yukarıda dolar için okuma işlemi yapılmıştır.
+<b>Dolar'a</b> ait <b>Tablo Sıra</b> değeri XML kaynağında ilk sırada olduğu için <b>"0"</b> olarak tanımlanmıştır.
+[![Tablo Sırası](http://asilkarbeyaz.com/doviz/tablo.png)](http://asilkarbeyaz.com/doviz/tablo.png)
+-Tablo sırasına göre okuma işlemine devam edilecek olduğunda <b>AVUSTRALYA DOLARI  "1"</b> , <b>DANİMARKA KRONU "2"</b> , <b>EURO "3"</b> , <b>İNGİLİZ STERLİNİ "4"</b> ve <b>İSVİÇRE FRANGI "5" </b> olarak okunmaktadır.
+
+# echo Komutu Kullanarak veri çağırma işlemi:
+Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>echo</b> komutu ile çağırmamız gerekmektedir.Bu yöntem sayesinde istediğimiz datayı websitemizde dilediğimiz yere ekleyebiliriz.
+- Dolar Alış Fiyatı: <b>$dolar_alis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$dolar_alis"; ?>
+```
+- Dolar Satış Fiyatı: <b>$dolar_satis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$dolar_satis"; ?>
+```
+- Euro Alış Fiyatı: <b>$euro_alis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$euro_alis"; ?>
+```
+- Euro Satış Fiyatı: <b>$euro_satis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$euro_satis"; ?>
+```
+- Sterlin Alış Fiyatı: <b>$pound_alis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$pound_alis"; ?>
+```
+-Sterlin Satış Fiyatı: <b>$pound_satis</b> değikeni için <b>echo</b> kullanımı:
+```php
+<?php echo "$pound_satis"; ?>
+```
+- Umarım kolay ve analışılır bir anlatım olmuştur. İhtiyacınızı karşılamasını dilerim.
+- - Soru ve önerileriniz için lütfen iletişime geçiniz ve sosyal medya hesaplarımdan beni takip etmeyi unutmayınız.
+
 ## Sources
 
 * [Jerry Jones](https://codepen.io/jeryj/) (Thank You) ↓
