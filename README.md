@@ -101,7 +101,7 @@ Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>ech
 
 ## Sources
 
-* [Jerry Jones](https://codepen.io/jeryj/) (Thank You) ↓
+* [Jerry Jones](https://codepen.io/jeryj/) (Thank You for design) ↓
 * ↑ [Flexbox Grid Cards with Action Menus](https://codepen.io/jeryj/pen/AXVRXJ)
 * [TCMB](http://www.tcmb.gov.tr/kurlar/today.xml) →
 * [Poppins Google-Fonts](https://fonts.google.com/specimen/Poppins) →
