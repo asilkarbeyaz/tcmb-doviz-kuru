@@ -1,7 +1,7 @@
 # tcmb-doviz-kuru #
 # Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru
-<b>Created on: 12.01.2019</b>
-<b>Version : v1.0</b>
+<b>Created on: 12.01.2019</b><br>
+<b>Version : `v1.0`</b>
 - Güncel Döviz Kuru verilerini internette bulmamız çok basittir. Peki bu bilgileri doğru ve etkili olarak nasıl kullanabiliriz sorusunu sizlere açıklamak ve uygulamalı olarak göstermek adına oluşturduğum <b>Türkiye Cumhuriyet Merkez Bankası Güncel Efektif Döviz Kuru</b> scriptini dilediğiniz gibi kullanabilirsiniz. 
 - Kolay ve anlaşılır olabilmesi adına kod (php) içeriğini olabildiği kadar minimize etmeye çalıştım.Umarım işinize yarar.
 - Scriptin satışını yapmadığınız ve ticari kullanmadığınız sürece sorun olmayacaktır.
@@ -104,6 +104,7 @@ Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>ech
 * [Jerry Jones](https://codepen.io/jeryj/) (Thank You) ↓
 * ↑ [Flexbox Grid Cards with Action Menus](https://codepen.io/jeryj/pen/AXVRXJ)
 * [TCMB](http://www.tcmb.gov.tr/kurlar/today.xml) →
+* [Poppins Google-Fonts](https://fonts.google.com/specimen/Poppins) →
 
 
 
@@ -118,3 +119,13 @@ Yukarıda verilen php kodları ile XML kaynağından okuduğumuz verileri <b>ech
 
 
 <b>[DEMO için Tıklayınız](http://asilkarbeyaz.com/doviz)</b>
+
+## Bir Sonraki Güncelleme (Versiyon: `v2.0`) :
+sizden gelecek olan taleplere göre `v2.0` için yapmayı düşündüğüm güncellemeler aşağıdaki gibi olacaktır. 
+- `+ Forex Kur Değerleri (Alış ve Satış)` ,
+- `+ Birim Değeri (Unit)` ,
+- `+ Para Kodu (CurrencyCode)`
+- `+ Kur Tarihi (Tarih_Date-Tarih)`
+- `+ Bülten No (Tarih_Date-Bulten_No)`
+
+Teşekkürler...
