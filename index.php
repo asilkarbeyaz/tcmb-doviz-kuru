@@ -1,6 +1,12 @@
 <?php 
 $doviz = simplexml_load_file('http://www.tcmb.gov.tr/kurlar/today.xml');
     
+// dates //
+$currencyDate1 		= $doviz->attributes()->{'Tarih'};
+$currencyDate2 		= $doviz->attributes()->{'Date'};
+// bulletin no. //
+$currencyBulletin	= $doviz->attributes()->{'Bulten_No'};
+
 
 // dolar starts //  
 $dolar_alis = $doviz->Currency[0]->BanknoteBuying;
@@ -24,7 +30,7 @@ $pound_satis = $doviz->Currency[4]->BanknoteSelling;
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <title>TCMB Güncel Efektif Döviz Kuru</title>
+  <title><?php echo "$currencyDate1"; ?> Tarihli TCMB Efektif Döviz Kuru, Bülten No: <?php echo "$currencyBulletin"; ?></title>
   
   
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
@@ -40,7 +46,7 @@ $pound_satis = $doviz->Currency[4]->BanknoteSelling;
   <!-- symbol defs-->
 
 <div class="title">
-	<h2>TCMB Güncel Efektif Döviz Kurları</h2>
+	<h2><?php echo "$currencyDate1"; ?> Tarihli TCMB Efektif Döviz Kurları<br/>Bülten No: <?php echo "$currencyBulletin"; ?></h2>
 </div>
 <ul class="dash-list">
     <li id="dash-item--1" class="dash-item dash-item--dollar">
@@ -123,9 +129,5 @@ $pound_satis = $doviz->Currency[4]->BanknoteSelling;
  <p><a href="http://asilkarbeyaz.com" target="_blank" class="logo"><img src="http://asilkarbeyaz.com/doviz/logo.png"></a><a class="linkedin" href="https://www.linkedin.com/in/asilkarbeyaz/" target="_blank"><img src="http://asilkarbeyaz.com/doviz/linkedin.svg"  style="width:20px;height:20px;"></a>  <a class="instagram" href="https://instagram.com/asilkarbeyaz" target="_blank"><img src="http://asilkarbeyaz.com/doviz/instagram.svg" style="width:20px;height:20px;"></a></p>
 </div>
 
-
-
-
 </body>
-
 </html>
